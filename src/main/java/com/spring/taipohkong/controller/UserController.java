@@ -18,6 +18,7 @@ public class UserController {
     public ResponseEntity<?> logIn(@RequestBody UserDTO loginReq){
         try {
             userService.logIn(loginReq);
+            System.out.println("Hello World");
             return ResponseEntity.ok().build();
         } catch (Exception e) {
             throw new RuntimeException(e);
