@@ -1,4 +1,4 @@
-package com.spring.taipohkong.user;
+package com.spring.taipohkong.dto;
 
 public class UserDTO {
     private String username;
